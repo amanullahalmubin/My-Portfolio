@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Aman Ullah Al Mubin - Professional Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #000000;
+        }
+        h1, h2, h3, h4 {
+            font-family: Arial, sans-serif;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .hover-effect {
+            transition: color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-neutral-950 text-neutral-50">
+
+    <!-- Header Section -->
+    <header class="bg-neutral-900 shadow-lg p-6 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-center items-center">
+            <nav>
+                <ul class="flex space-x-4 md:space-x-8">
+                    <li><a href="#about" class="hover-effect hover:text-neutral-400 font-medium text-sm md:text-base no-underline">About</a></li>
+                    <li><a href="#skills" class="hover-effect hover:text-neutral-400 font-medium text-sm md:text-base no-underline">Skills</a></li>
+                    <li><a href="#experience" class="hover-effect hover:text-neutral-400 font-medium text-sm md:text-base no-underline">Experience</a></li>
+                    <li><a href="#contact" class="hover-effect hover:text-neutral-400 font-medium text-sm md:text-base no-underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="py-16 md:py-24 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-2 fade-in">Md. Aman Ullah Al Mubin</h2>
+            <p class="text-base md:text-lg text-neutral-400 fade-in">Computer Science & Engineering Student<br>Digital Photographer<br>Social Media Manager<br>Graphics Designer</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container mx-auto py-12 md:py-20 px-4">
+        <div class="bg-neutral-900 p-6 md:p-10 rounded-xl shadow-lg border border-neutral-800 fade-in">
+            <h3 class="text-xl md:text-2xl font-bold text-white mb-0 inline-block">About Me</h3>
+            <p class="text-neutral-400 leading-relaxed text-sm md:text-base mt-0 text-justify">
+                I am a dedicated Computer Science & Engineering student at Independent University, Bangladesh, with a strong academic foundation in programming and core principles of computer science, including Data Structures and Algorithms. In addition to my technical skills, I am proficient in digital photography and social media management. My diverse experiences, including leadership roles in academic clubs and the Bangladesh National Cadet Corps, have cultivated strong communication, management, and problem-solving abilities. I am committed to continuous learning and applying my skills in a professional environment.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mx-auto py-12 md:py-20 px-4">
+        <div class="bg-neutral-900 p-6 md:p-10 rounded-xl shadow-lg border border-neutral-800 fade-in">
+            <h3 class="text-xl md:text-2xl font-bold text-white mb-6 pb-2 inline-block">Skills</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Programming Skills -->
+                <div class="bg-neutral-800 p-6 rounded-xl shadow-md fade-in">
+                    <h4 class="text-lg font-semibold text-neutral-50 mb-2 text-center">Programming</h4>
+                    <ul class="list-disc list-inside text-neutral-300 text-sm">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <!-- Creative Skills -->
+                <div class="bg-neutral-800 p-6 rounded-xl shadow-md fade-in">
+                    <h4 class="text-lg font-semibold text-neutral-50 mb-2 text-center">Creative & Management</h4>
+                    <ul class="list-disc list-inside text-neutral-300 text-sm">
+                        <li>Digital Photography & Editing</li>
+                        <li>Graphic Design (Canva)</li>
+                        <li>Social Media Management</li>
+                        <li>Content Writing & Scheduling</li>
+                    </ul>
+                </div>
+                <!-- Software Proficiency -->
+                <div class="bg-neutral-800 p-6 rounded-xl shadow-md fade-in">
+                    <h4 class="text-lg font-semibold text-neutral-50 mb-2 text-center">Software</h4>
+                    <ul class="list-disc list-inside text-neutral-300 text-sm">
+                        <li>Microsoft Word</li>
+                        <li>Microsoft PowerPoint</li>
+                        <li>G Suite</li>
+                        <li>Various AI Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container mx-auto py-12 md:py-20 px-4">
+        <div class="bg-neutral-900 p-6 md:p-10 rounded-xl shadow-lg border border-neutral-800 fade-in">
+            <h3 class="text-xl md:text-2xl font-bold text-white mb-6 pb-2 inline-block">Experience</h3>
+            <div class="space-y-8">
+                <!-- JUKTI Club -->
+                <div class="bg-neutral-800 p-4 rounded-lg fade-in">
+                    <h4 class="text-lg font-semibold text-neutral-50">General Member</h4>
+                    <p class="text-neutral-400 text-sm">JUKTI - The Official Club of CSE</p>
+                    <ul class="text-xs text-neutral-300 mt-1 list-disc list-inside space-y-1">
+                        <li>Actively participated in various club activities, including workshops and events.</li>
+                        <li>Gained practical knowledge and a deeper understanding of computer science and engineering principles.</li>
+                    </ul>
+                </div>
+                <!-- Independent Photography Club -->
+                <div class="bg-neutral-800 p-4 rounded-lg fade-in">
+                    <h4 class="text-lg font-semibold text-neutral-50">Core Member</h4>
+                    <p class="text-neutral-400 text-sm">Independent Photography Club</p>
+                    <ul class="text-xs text-neutral-300 mt-1 list-disc list-inside space-y-1">
+                        <li>Actively involved in event management.</li>
+                        <li>Gained extensive hands-on experience in digital photography.</li>
+                        <li>Responsible for comprehensive photo editing and providing professional-level event coverage.</li>
+                    </ul>
+                </div>
+                <!-- BEPZA PSC Ex-Cadets Club -->
+                <div class="bg-neutral-800 p-4 rounded-lg fade-in">
+                    <h4 class="text-lg font-semibold text-neutral-50">Head of Media & Management</h4>
+                    <p class="text-neutral-400 text-sm">BEPZA PSC Ex-Cadets Club</p>
+                    <ul class="text-xs text-neutral-300 mt-1 list-disc list-inside space-y-1">
+                        <li>Managed the full lifecycle of social media content.</li>
+                        <li>Wrote and scheduled strategic posts for optimal reach.</li>
+                        <li>Fostered community engagement and performed performance analysis to grow online presence.</li>
+                    </ul>
+                </div>
+                <!-- Bangladesh National Cadet Corps -->
+                <div class="bg-neutral-800 p-4 rounded-lg fade-in">
+                    <h4 class="text-lg font-semibold text-neutral-50">Former Cadet Corporal</h4>
+                    <p class="text-neutral-400 text-sm">Bangladesh National Cadet Corps</p>
+                    <ul class="text-xs text-neutral-300 mt-1 list-disc list-inside space-y-1">
+                        <li>Appointed as a Section Commander within the Bangladesh National Cadet Corps.</li>
+                        <li>Honed leadership, discipline, and teamwork skills.</li>
+                        <li>Participated in multiple challenging winter and battalion training exercises.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-black text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center fade-in">
+            <h3 class="text-xl md:text-3xl font-bold mb-4">Contact Information</h3>
+            <p class="text-base md:text-lg mb-8">Please feel free to contact me for professional inquiries or further collaboration.</p>
+            <div class="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-4 md:space-y-0">
+                <a href="mailto:amanullahalmubin@gmail.com" class="bg-white text-neutral-900 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-neutral-200 transition-colors duration-300 no-underline hover:no-underline">amanullahalmubin@gmail.com</a>
+                <a href="tel:+8801760244646" class="bg-white text-neutral-900 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-neutral-200 transition-colors duration-300 no-underline hover:no-underline">+880 1760-244646</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-neutral-400 py-6 text-center">
+        <p class="text-sm">&copy; 2025 Md. Aman Ullah Al Mubin. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                } else {
+                    entry.target.classList.remove('is-visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
